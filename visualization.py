@@ -38,5 +38,7 @@ if __name__ == "__main__":
         #X_embedded = tsne.fit_transform(X)
         X_embedded = pca.fit(X[:nb_train]).transform(X[:nb_test])
 
+        print(y)
+        
         #Plot:
         plot_clustering(X_embedded[:nb_test], y[:nb_test], y, "", "images/pca_" + str(i) + ".png")
