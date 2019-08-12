@@ -16,3 +16,7 @@ File descriptions
 Everything is summarized in the following file:
 > [MFR-Report.pdf](https://github.com/Hugodovs/ModulationFormatRecognition/blob/master/MLReport.pdf)
 
+The motivation of the work is summarized in the following file:
+> [MFR-Motivation.pdf](https://github.com/Hugodovs/ModulationFormatRecognition/blob/master/MFR-Motivation.pdf)
+ 
+
