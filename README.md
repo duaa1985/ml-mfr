@@ -1,3 +1,4 @@
+
 # Machine Learning on Modulation Format Recognition (MFR)
 
 Evaluation and analysis of Modulation Format Recognition described in the paper:
@@ -8,8 +9,13 @@ Also, we provide an implementation of the optical transmission channel using the
 
 ## Setup
 
-TODO
-File descriptions
+Generate data.csv file:
+
+	simulator.py: 
+
+Use data.csv file to print the results:
+
+	python3 main.py data.csv
 
 ## Further reading
 
