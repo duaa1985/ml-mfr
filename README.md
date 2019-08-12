@@ -1,16 +1,18 @@
-# ModulationFormatRecognition
-Machine Learning Techniques for Modulation Format Recognition
+# Machine Learning on Modulation Format Recognition (MFR)
 
-simulator.py: Generate dataset based on GN approach
+Evaluation and analysis of Modulation Format Recognition described in the paper:
+> [Machine Learning Based Optimal Modulation Format Prediction for Physical Layer Network Planning](https://ieeexplore.ieee.org/document/8473593)
 
-main.py: replicate "Machine Learning Based Optimal Modulation Format
-Prediction for Physical Layer Network Planning" paper
+Also, we provide an implementation of the optical transmission channel using the Gaussian noise (GN) approach described in the paper:
+>  [Recent advances in the modeling of the impact of nonlinear fiber propagation effects on uncompensated coherent transmission systems](https://ieeexplore.ieee.org/document/7577767/)
 
-feature_selection.py: get scores of each features based on their relevance 
+## Setup
 
-visualization.py: generate tsne and pca images of the data
+TODO
+File descriptions
 
-helper.py and nn.py: functions to be used in other scripts
+## Further reading
 
-data.csv: data used for this work
+Everything is summarized in the following file:
+> [MFR-Report.pdf](https://github.com/Hugodovs/ModulationFormatRecognition/blob/master/MLReport.pdf)
 
