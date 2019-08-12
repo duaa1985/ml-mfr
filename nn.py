@@ -2,13 +2,6 @@
 ##-------------------------Hugo, Allyson, Roberto, Rizan-----------------
 ##========================================================================
 
-#import numpy as np
-#from sklearn.metrics import confusion_matrix
-#import matplotlib.pyplot as plt
-#import itertools
-#import time
-#from matplotlib.ticker import FuncFormatter
-
 from keras.models import Sequential
 from keras.layers import Dense, Activation, BatchNormalization
 import keras
@@ -111,10 +104,7 @@ class MyEarlyStopping(keras.callbacks.Callback):
             if self.wait >= self.patience:
                 self.stopped_epoch = epoch
 
-                #MY CODE:
-                #self.model.stop_training = True
                 self.model.save(self.model.name + '.h5')
-                #--------
 
                 if self.restore_best_weights:
                     if self.verbose > 0:
@@ -147,9 +137,7 @@ def create_mlp(input_shape, hidden_layers, output_shape):
 
     model.add(Dense(output_shape, activation='softmax'))
    
-    #sgd = keras.optimizers.SGD(lr=0.01, decay=1e-6, momentum=0.9, nesterov=True)#weird graph but 95% 97% 
-    sgd = keras.optimizers.SGD(lr=0.01, momentum=0.0, decay=0.0, nesterov=False) #good graph but we don't get to 90% -> using scale with this make the best option
-    #sgd = keras.optimizers.RMSprop(lr=0.001) # not good graph but 90% tp 94%
+    sgd = keras.optimizers.SGD(lr=0.01, momentum=0.0, decay=0.0, nesterov=False) 
     model.compile(optimizer=sgd,
                   loss='categorical_crossentropy',
                   metrics=['acc'])

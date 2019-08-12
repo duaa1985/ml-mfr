@@ -25,7 +25,6 @@ from keras.models import load_model
 import warnings
 warnings.simplefilter(action='ignore', category=FutureWarning)
 
-
 if __name__ == "__main__":
 
         #Read data:
