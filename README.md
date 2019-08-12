@@ -1,5 +1,5 @@
 
-# Machine Learning on Modulation Format Recognition (MFR)
+# Machine Learning for Modulation Format Recognition (MFR)
 
 Evaluation and analysis of Modulation Format Recognition described in the paper:
 > [Machine Learning Based Optimal Modulation Format Prediction for Physical Layer Network Planning](https://ieeexplore.ieee.org/document/8473593)
@@ -19,10 +19,13 @@ Use data.csv file to print the results:
 
 ## Further reading
 
-Everything is summarized in the following file:
-> [MFR-Report.pdf](https://github.com/Hugodovs/ModulationFormatRecognition/blob/master/MLReport.pdf)
+The *target paper* of the work is the following file:
+> [MFR-Paper.pdf](https://github.com/Hugodovs/ml-mfr/blob/master/MFR-Paper.pdf)
 
-The motivation of the work is summarized in the following file:
-> [MFR-Motivation.pdf](https://github.com/Hugodovs/ModulationFormatRecognition/blob/master/MFR-Motivation.pdf)
+The *motivation* of the work is summarized in the following file:
+> [MFR-Motivation.pdf](https://github.com/Hugodovs/ml-mfr/blob/master/MFR-Motivation.pdf)
  
+Everything else is summarized in the following file:
+> [MFR-Report.pdf](https://github.com/Hugodovs/ml-mfr/blob/master/MLReport.pdf)
+
 
