@@ -26,6 +26,6 @@ The *motivation* of the work is summarized in the following file:
 > [MFR-Motivation.pdf](https://github.com/Hugodovs/ml-mfr/blob/master/MFR-Motivation.pdf)
  
 Everything else is summarized in the following file:
-> [MFR-Report.pdf](https://github.com/Hugodovs/ml-mfr/blob/master/MLReport.pdf)
+> [MFR-Report.pdf](https://github.com/Hugodovs/ml-mfr/blob/master/MFR-Report.pdf)
 
 
